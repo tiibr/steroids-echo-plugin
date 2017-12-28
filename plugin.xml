@@ -31,13 +31,8 @@
       <plugin name="Echo" value="Echo" onload="true" />
     </config-file>
       
-    <config-file target="*-Info.plist" parent="/*/plugins">
-      <array>
-          <dict>
-              <key>NSCameraUsageDescription</key>
-              <string>Ler QR Code</string>
-          </dict>
-      </array>
+    <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+      <string>Ler QR Code</string>
     </config-file>
 
     <config-file target="config.xml" parent="/widget">
