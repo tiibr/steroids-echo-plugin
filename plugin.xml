@@ -33,7 +33,7 @@
       
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
       <array>
-        <string>Capturar Imagem para QR Code</string>
+        <string>Capturar Imagem para Leitura de QR Code ou para Capturar Imagens para Cadastros</string>
       </array>
     </config-file>
 
