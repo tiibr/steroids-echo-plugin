@@ -32,7 +32,7 @@
     </config-file>
       
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-      <string>Ler QR Code</string>
+      <string>O uso da câmera neste aplicativo será feita para leitura de QR Code e captura de fotos para cadastros e documentos</string>
     </config-file>
 
     <config-file target="config.xml" parent="/widget">
